@@ -106,6 +106,7 @@ class MarkerInfoWindow extends Component {
 
     return (
       <Fragment>
+        <div style={{height: 150, width: 600}}>...spacer...</div>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
